@@ -123,17 +123,3 @@ This section is refreshed automatically from
 - `2026-03-17` [`innodb原理介绍与运维`](https://jasirvoriya.github.io/innodb/innodb.html)  
   `innodb/innodb`
 <!-- recent-posts:end -->
-
-## 📌 Selected work
-
-- [voriya-skills](https://github.com/JasirVoriya/voriya-skills): practical AI
-  agent skills for Codex and Cursor, focused on capability mapping, auth
-  recovery, and durable execution.
-- [JasirVoriya.github.io](https://github.com/JasirVoriya/JasirVoriya.github.io):
-  my technical blog on AI coding, system design, and middleware engineering.
-- [ios-wallpaper](https://github.com/JasirVoriya/ios-wallpaper): a SwiftUI
-  wallpaper browser for iPhone and iPad.
-- [kafka_exporter](https://github.com/JasirVoriya/kafka_exporter): a Kafka
-  metrics collector focused on fast response times and visibility.
-- [dark-one](https://github.com/JasirVoriya/dark-one): an open-source server
-  stack experiment around ORM, TCP services, and security.
