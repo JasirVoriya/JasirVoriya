@@ -1,0 +1,49 @@
+name: Update profile README
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Check out blog repository
+        uses: actions/checkout@v4
+        with:
+          repository: JasirVoriya/JasirVoriya.github.io
+          path: blog-source
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh recent posts
+        run: |
+          python scripts/update_recent_articles.py \
+            --blog-repo blog-source \
+            --readme README.md \
+            --limit 5
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "README is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: refresh recent posts"
+          git push
