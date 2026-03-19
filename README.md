@@ -1,5 +1,7 @@
 # `JasirVoriya`
 
+<!-- profile-readme: active -->
+
 ```bash
 $ whoami
 JasirVoriya
