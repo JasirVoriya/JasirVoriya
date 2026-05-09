@@ -109,7 +109,7 @@
 ## 📝 Recent writing
 
 This section is refreshed automatically from
-[`JasirVoriya.github.io`](https://github.com/JasirVoriya/JasirVoriya.github.io).
+[`JasirVoriya.github.io`](https://jasirvoriya.github.io).
 
 <!-- recent-posts:start -->
 - `2026-03-19` [`Git AI 是什么？AI 写的代码，应该如何进入 Git 历史`](https://jasirvoriya.github.io/ai/git-ai-ai-code-attribution.html)  
