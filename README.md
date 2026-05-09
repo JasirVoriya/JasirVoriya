@@ -120,4 +120,6 @@ This section is refreshed automatically from
   `ai/learning-ai-prompt-engineer-guide`
 - `2026-03-17` [`OpenViking 学习与介绍：给 AI Agent 一套可生长的上下文系统`](https://jasirvoriya.github.io/ai/openviking-learning-and-introduction.html)  
   `ai/openviking-learning-and-introduction`
+- `2026-03-17` [`innodb原理介绍与运维`](https://jasirvoriya.github.io/innodb/innodb.html)  
+  `innodb/innodb`
 <!-- recent-posts:end -->
