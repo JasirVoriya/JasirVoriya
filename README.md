@@ -110,16 +110,3 @@
 
 This section is refreshed automatically from
 [`JasirVoriya.github.io`](https://jasirvoriya.github.io).
-
-<!-- recent-posts:start -->
-- `2026-03-19` [`Git AI 是什么？AI 写的代码，应该如何进入 Git 历史`](https://jasirvoriya.github.io/ai/git-ai-ai-code-attribution.html)  
-  `ai/git-ai-ai-code-attribution`
-- `2026-03-19` [`从 Vibe Coding 到 Spec-Driven Development：AI 编程为什么从感觉对走向规格先行`](https://jasirvoriya.github.io/ai/from-vibe-coding-to-spec-driven-development.html)  
-  `ai/from-vibe-coding-to-spec-driven-development`
-- `2026-03-19` [`从 Prompt Engineering 到 Context Engineering：BMad 为什么值得一起学`](https://jasirvoriya.github.io/ai/learning-ai-prompt-engineer-guide.html)  
-  `ai/learning-ai-prompt-engineer-guide`
-- `2026-03-17` [`OpenViking 学习与介绍：给 AI Agent 一套可生长的上下文系统`](https://jasirvoriya.github.io/ai/openviking-learning-and-introduction.html)  
-  `ai/openviking-learning-and-introduction`
-- `2026-03-17` [`innodb原理介绍与运维`](https://jasirvoriya.github.io/innodb/innodb.html)  
-  `innodb/innodb`
-<!-- recent-posts:end -->
